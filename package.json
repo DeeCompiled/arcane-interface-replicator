@@ -1,0 +1,16 @@
+{
+  "name": "arcane-interface-replicator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "postinstall": "cp node_modules/bootstrap/dist/css/bootstrap.min.css src/dependencies/bootstrap/css/ && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js src/dependencies/bootstrap/js/"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  },
+  "dependencies": {
+    "@tauri-apps/plugin-dialog": "^2.3.0"
+  }
+}
